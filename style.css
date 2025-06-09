@@ -1,0 +1,44 @@
+/* style.css - Gaya CLI Terminal */
+
+body {
+  background-color: #000; /* Latar belakang hitam seperti terminal */
+  color: #0f0;            /* Warna teks hijau neon */
+  font-family: 'Courier New', Courier, monospace;
+  margin: 0;
+  padding: 20px;
+}
+
+.terminal {
+  max-width: 800px;
+  margin: auto;
+  background: #111;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px #0f0;
+}
+
+.output {
+  white-space: pre-wrap; /* Supaya baris baru ditampilkan */
+  margin-bottom: 10px;
+  min-height: 300px;
+}
+
+.input-line {
+  display: flex;
+  align-items: center;
+}
+
+.prompt {
+  margin-right: 5px;
+  color: #0f0;
+}
+
+#cli-input {
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #0f0;
+  font-family: inherit;
+  font-size: 1em;
+  width: 100%;
+}
